@@ -1,4 +1,4 @@
-export function createMarkup(data) {
+export async function createMarkup(data) {
   return data.hits
     .map(
       ({
